@@ -1,0 +1,50 @@
+:root {
+  --border-radius025: 0.25rem;
+  --padding05: 0.5rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #dfe6e9;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  margin-bottom: 50px;
+  font-size: 2.5rem;
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.user-input {
+  padding: var(--padding05);
+  border-radius: var(--border-radius025);
+  border: none;
+}
+.btn-reverse {
+  padding: var(--padding05);
+  border-radius: var(--border-radius025);
+  border: none;
+  background-color: #0984e3;
+  color: #dfe6e9;
+  font-weight: bold;
+}
+.display {
+  margin-top: 50px;
+  font-weight: bold;
+  font-size: 2rem;
+}
